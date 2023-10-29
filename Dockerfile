@@ -7,3 +7,4 @@ RUN apk add mysql mysql-client && \
     mysql_install_db --user=root --datadir=/sql --skip-test-db
 EXPOSE 3306
 CMD  mysqld --user=root --datadir=/sql
+LABEL name="mydocker:latest"
