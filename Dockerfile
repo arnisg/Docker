@@ -1,3 +1,4 @@
+# sample Dockerfile
 FROM alpine
 WORKDIR /sql
 RUN apk add mysql mysql-client && \
